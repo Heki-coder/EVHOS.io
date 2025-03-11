@@ -1,0 +1,35 @@
+:root {
+    --border-color: greenyellow;
+}
+body {
+    background-image: url(EVHOS.jpg);
+    background-size: 50vh 100vh;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0.1vh 0.1vh 3vh orange;
+
+}
+button {
+    background-color: black;
+    color: orange;
+    border: none;
+    padding: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2vh;
+    font-size: xx-large;
+    border-radius: 2vh;
+    box-shadow: 0.1vh 0.1vh 1vh white;
+    text-shadow: 0.1vh 0.1vh 0 var(--border-color), -0.1vh -0.1vh 0 var(--border-color), -0.1vh 0.1vh 0 var(--border-color), 0.1vh -0.1vh var(--border-color);
+}

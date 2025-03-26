@@ -2,24 +2,34 @@
     --border-color: greenyellow;
 }
 body {
-    background-image: url(EVHOS.jpg);
-    background-size: 50vh 100vh;
-    background-repeat: repeat-x;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #000000;
+}
+#image {
+
+    background-size: 100vh 100vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
 #buttons {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 3;
 }
 h1 {
+    position: absolute;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 0.1vh 0.1vh 3vh orange;
-
+    z-index: 2;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%, 50%);
+    font-size: xx-large;
 }
 button {
     background-color: black;

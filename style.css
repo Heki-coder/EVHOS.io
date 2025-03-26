@@ -5,6 +5,9 @@ body {
     background-color: #000000;
     overflow: hidden;
 }
+#lit {
+    font-size: x-large;
+}
 @media (max-width: 500px) {
     #image {
         background-size: 100vh 100vh;

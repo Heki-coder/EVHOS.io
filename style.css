@@ -64,3 +64,10 @@ button {
     box-shadow: 0.1vh 0.1vh 1vh white;
     text-shadow: 0.1vh 0.1vh 0 var(--border-color), -0.1vh -0.1vh 0 var(--border-color), -0.1vh 0.1vh 0 var(--border-color), 0.1vh -0.1vh var(--border-color);
 }
+a {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    color: white;
+}

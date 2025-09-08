@@ -4,6 +4,7 @@
 body {
     background-color: #000000;
     overflow: hidden;
+    color: white;
 }
 #lit {
     font-size: x-large;
@@ -70,4 +71,16 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);   
     color: white;
+}
+p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
 }
